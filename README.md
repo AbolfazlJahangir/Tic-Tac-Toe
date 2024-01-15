@@ -1,1 +1,1 @@
-Tic-Tac-Toe --> first version with Tkinter.
+Python Version --> First version with Tkinter.
