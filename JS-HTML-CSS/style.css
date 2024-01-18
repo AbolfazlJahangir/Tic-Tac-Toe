@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: hsl(220, 95%, 10%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url('galaxy_pic4.jpg') center/cover no-repeat fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: white;
+}
+
+.tic-tac-toe {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: hsl(50, 100%, 50%);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 3px gold;
+}
+
+#welcome{
+    text-align: center;
+    color: hsl(300, 75%, 40%);
+    font-weight: bold;
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 1px hsl(50, 100%, 35%);
+    padding-top: 10px;
+    
+}
+
+#buttons {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3px;
+    padding: 25px;
+}
+
+button {
+    text-align: center;
+    text-shadow: 1px 1px 1px;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 2px 2px 2px hsl(50, 100%, 35%);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(160, 100%, 50%);
+    color: hsl(350, 65%, 40%);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(160, 100%, 70%);
+}
+
+button:active {
+    background-color: hsl(160, 100%, 80%);
+}
+
+#terminal {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 2px hsl(50, 100%, 30%);
+    padding: 5px;
+    color: rgb(40, 35, 60);
+}
+
+#reset-button {
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px hsl(120, 100%, 35%);
+    justify-content: center;
+    width: 120px;
+    height: 55px;
+    background-color: hsl(120, 100%, 50%);
+    color: rgb(255, 0, 0);
+}
